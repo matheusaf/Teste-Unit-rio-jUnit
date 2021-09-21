@@ -9,4 +9,20 @@ public class PeriodicidadeCarteiraTest{
     public PeriodicidadeCarteiraTest(){
         _periodicidadeCarteira = new PeriodicidadeCarteira();
     }
+
+    @Test
+    public void testRenoavacao10(){
+        assertEquals
+    }
+
+    @Test
+    public void testRenoavacao5(){
+        
+    }
+
+    @Test
+    public void testRenoavacao3(){
+        
+    }
+
 }

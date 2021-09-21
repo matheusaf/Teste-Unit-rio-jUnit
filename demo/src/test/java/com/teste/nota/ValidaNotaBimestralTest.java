@@ -10,4 +10,13 @@ public class ValidaNotaBimestralTest{
         _validaNotaBimestral = new ValidaNotaBimestral();
     }
 
+    @Test
+    public void testNovaValida(){
+        assertEquals("Nota Válida", _validaNotaBimestral.validaNota(10));
+    }
+
+    @Test
+    public void testNotaInvalida(){
+        assertEquals("Nota Inválida", _validaNotaBimestral.validaNota(11));
+    }
 }

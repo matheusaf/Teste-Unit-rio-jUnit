@@ -5,13 +5,11 @@ public class PeriodicidadeCarteira {
 
 	}
 
-	public int getPeriodoRenoavacaoCarteira(int idade) {
+	public int getPeriodoRenovacaoCarteira(int idade) {
 		if (idade < 50)
 			return 10;
 		if (idade >= 50 && idade < 70)
 			return 5;
-		if (idade >= 70)
-			return 3;
-		return -1;
+		return 3;
 	}
 }
