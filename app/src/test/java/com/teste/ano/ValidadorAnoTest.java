@@ -1,4 +1,4 @@
-package com.mackenzie.ano;
+package com.teste.ano;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

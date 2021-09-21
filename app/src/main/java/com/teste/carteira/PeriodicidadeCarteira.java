@@ -1,4 +1,4 @@
-package com.mackenzie.carteira;
+package com.teste.carteira;
 
 public class PeriodicidadeCarteira {
 	public PeriodicidadeCarteira() {

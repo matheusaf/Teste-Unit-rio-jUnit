@@ -1,4 +1,4 @@
-package com.mackenzie.ano;
+package com.teste.ano;
 
 public class ValidadorAno {
 	public ValidadorAno() {
