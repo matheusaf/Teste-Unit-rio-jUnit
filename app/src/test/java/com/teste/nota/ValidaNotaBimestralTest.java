@@ -12,11 +12,14 @@ public class ValidaNotaBimestralTest{
 
     @Test
     public void testNovaValida(){
-        assertEquals("Nota Válida", _validaNotaBimestral.validaNota(10));
+        assertEquals("Nota Válida", _validaNotaBimestral.validaNota(0));
+        assertEquals("Nota Válida", _validaNotaBimestral.validaNota(1));
+        assertEquals("Nota Válida", _validaNotaBimestral.validaNota(9));
     }
 
     @Test
     public void testNotaInvalida(){
+        assertEquals("Nota Inválida", _validaNotaBimestral.validaNota(-1));
         assertEquals("Nota Inválida", _validaNotaBimestral.validaNota(11));
     }
 }

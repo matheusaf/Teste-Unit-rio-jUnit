@@ -10,6 +10,9 @@ public class PeriodicidadeCarteira {
 			return 10;
 		if (idade >= 50 && idade < 70)
 			return 5;
-		return 3;
+		if (idade >= 70){
+			return 3;
+		}
+		return -1;
 	}
 }
