@@ -1,3 +1,5 @@
+package com.mackenzie.carteira;
+
 public class PeriodicidadeCarteira {
 	public PeriodicidadeCarteira() {
 

@@ -1,3 +1,5 @@
+package com.mackenzie.nota;
+
 public class ValidaNotaBimestral {
 	public ValidaNotaBimestral() {
 	}
